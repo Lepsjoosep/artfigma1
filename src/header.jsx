@@ -1,13 +1,15 @@
+import { Link } from 'react-router-dom';
+
 function Header() {
     return (
     <header className=''>
       <div className='flex flex-col'>
-      <div className='flex flex-row justify-between p-10 pl-30 pr-30 pb-3'>
+      <div className='flex flex-row justify-between p-10 pl-10 pr-10 pb-3'>
         <div>
           <h1 className='text-lg font-bold'>FYRRE MAGAZINE</h1>
         </div>
         <div className='flex flex-row gap-8'>
-          <h1>Magazine</h1>
+          <Link to="/magazine"><h1>Magazine</h1></Link>
           <h1>Authors</h1>
           <h1 className='pr-2'>Podcast</h1>
           <h1>—</h1>
@@ -20,7 +22,7 @@ function Header() {
         </div>
       </div>
         <div className='flex justify-center'>
-          <hr className='bg-black w-full ml-30 mr-30' />
+          <hr className='bg-black w-full ml-10 mr-10' />
         </div>
       </div>
     </header>

@@ -20,7 +20,7 @@ function Footer() {
                       <h1>Architecture</h1>
                     </div>
                       <div className='text-white text-lg flex flex-col gap-5'>
-                      <h1>Magazine</h1>
+                      <a href="/magazine.jsx"><h1>Magazine</h1></a>
                       <h1>Podcast</h1>
                       <h1>Authors</h1>
                     </div>

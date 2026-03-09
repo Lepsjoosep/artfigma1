@@ -1,6 +1,6 @@
 function Podcasts() {
     return (
-            <div className='p-10 pl-30 pr-30'>
+            <div className='p-10 pl-10 pr-10'>
       <div className='flex flex-row justify-between'>
         <h1 className='font-bold text-8xl h-30'>PODCAST</h1> 
         <div className='flex flex-row gap-2'>

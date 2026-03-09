@@ -47,11 +47,11 @@ function App() {
         </div>
       </main>
 
-      <img src={artImg} alt="art" className="p-10 pl-30 pr-30" />
+      <img src={artImg} alt="art" className="p-10 pl-10 pr-10" />
 
       <News />
 
-      <hr className="bg-black m-10 ml-30 mr-30" />
+      <hr className="bg-black m-10 ml-10 mr-10" />
 
       <Podcast />
 

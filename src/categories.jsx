@@ -1,0 +1,6 @@
+function categories() {
+    return (
+        <>
+        </>
+    )
+}

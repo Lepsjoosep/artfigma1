@@ -11,10 +11,17 @@ function Magazine() {
   return (
     <>
       <Header />
-      <div className='p-10'>
-        <h1 className='text-2xl font-bold'>Magazine Page</h1>
-        <p>Your magazine content goes here</p>
+      <h1 className='text-[350px] flex justify-center font-bold mt-[-100px] mb-[-200px]'>MAGAZINE</h1>
+      <div className='mt-40 flex align-center justify-between p-10'>
+        <h1 className='font-bold text-lg'>CATEGORIES</h1>
+        <div>
+          <button className="p-2 pt-1 pb-1 border rounded-3xl ml-5">ALL</button>
+          <button className="p-2 pt-1 pb-1 border rounded-3xl ml-5">ART</button>
+          <button className="p-2 pt-1 pb-1 border rounded-3xl ml-5">STREET ART</button>
+          <button className="p-2 pt-1 pb-1 border rounded-3xl ml-5">SCULPTURES</button>
+        </div>
       </div>
+      
       <Footer />
     </>
   )

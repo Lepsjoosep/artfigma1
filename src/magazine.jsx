@@ -7,6 +7,7 @@ import Podcast from './podcasts.jsx'
 import News from './news.jsx'
 import artImg from './Pictures/art.jpg'
 import MagazineSection from './MagazineSection.jsx'
+import MagazineEnd from './MagazineEnd.jsx'
 
 function Magazine() {
   return (
@@ -23,6 +24,13 @@ function Magazine() {
         </div>
       </div>
       <MagazineSection />
+      <div className='flex justify-end pt-20 pr-10 pb-20'>
+        <div className='flex flex-row gap-2'>
+          <h1 className='font-bold'>NEXT</h1>
+          <img src="./src/Pictures/arrow.png" alt="" className='h-6'/>
+        </div>
+      </div>
+      <MagazineEnd />
       <Footer />
     </>
   )

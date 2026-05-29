@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 function MagazineSection() {
     return (
             <div className=' pl-10 pr-10'>
@@ -7,7 +9,7 @@ function MagazineSection() {
           <div className='border-1 p-10'>
             <div className="flex flex-row justify-between pb-10">
               <h1 className="text-sm mt-2">16. March 2022</h1>
-              <button className="text-sm border-1 p-2 pl-3 pr-3 rounded-3xl">ART</button>
+              <Link to="/MagazinePost"><button className="text-sm border-1 p-2 pl-3 pr-3 rounded-3xl">ART</button></Link>
             </div>
             <img src="./src/Pictures/Hopedieslast.jpg" alt="" className='h-100 w-120 object-cover object-[70%_center]'/>
             <h1 className='font-bold text-3xl w-100 h-15 mt-5'>Hope dies last</h1>

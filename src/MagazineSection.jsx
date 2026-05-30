@@ -24,7 +24,7 @@ function MagazineSection() {
           <div className='border-1 p-10'>
             <div className="flex flex-row justify-between pb-10">
               <h1 className="text-sm mt-2">16. March 2022</h1>
-              <button className="text-sm border-1 p-2 pl-3 pr-3 rounded-3xl">ART</button>
+              <Link to="/MagazinePost"><button className="text-sm border-1 p-2 pl-3 pr-3 rounded-3xl">ART</button></Link>
             </div>
             <img src="./src/Pictures/art.jpg" alt="" className='h-100 w-120 object-cover object-[60%_center]'/>
             <h1 className='font-bold text-3xl w-100 h-15 mt-5'>Don't close your eyes</h1>
@@ -39,7 +39,7 @@ function MagazineSection() {
           <div className='border-1 p-10'>
             <div className="flex flex-row justify-between pb-10">
               <h1 className="text-sm mt-2">16. March 2022</h1>
-              <button className="text-sm border-1 p-2 pl-3 pr-3 rounded-3xl">SCULPTURES</button>
+              <Link to="/MagazinePost"><button className="text-sm border-1 p-2 pl-3 pr-3 rounded-3xl">SCULPTURES</button></Link>
             </div>
             <img src="./src/Pictures/thebest.jpg" alt="" className='h-100 w-120 object-cover object-[70%_center]'/>
             <h1 className='font-bold text-3xl w-100 h-15 mt-5'>The best art museums</h1>
@@ -58,7 +58,7 @@ function MagazineSection() {
           <div className='border-1 p-10'>
             <div className="flex flex-row justify-between pb-10">
               <h1 className="text-sm mt-2">16. March 2022</h1>
-              <button className="text-sm border-1 p-2 pl-3 pr-3 rounded-3xl">SCULPTURES</button>
+              <Link to="/MagazinePost"><button className="text-sm border-1 p-2 pl-3 pr-3 rounded-3xl">SCULPTURES</button></Link>
             </div>
             <img src="./src/Pictures/MagazinePictures/The-chains.jpg" alt="" className='h-100 w-120 object-cover object-[70%_center]'/>
             <h1 className='font-bold text-3xl w-100 h-15 mt-5'>The chains of our lives</h1>
@@ -73,7 +73,7 @@ function MagazineSection() {
           <div className='border-1 p-10'>
             <div className="flex flex-row justify-between pb-10">
               <h1 className="text-sm mt-2">16. March 2022</h1>
-              <button className="text-sm border-1 p-2 pl-3 pr-3 rounded-3xl">ART</button>
+              <Link to="/MagazinePost"><button className="text-sm border-1 p-2 pl-3 pr-3 rounded-3xl">ART</button></Link>
             </div>
             <img src="./src/Pictures/MagazinePictures/through-eyes.jpg" alt="" className='h-100 w-120 object-cover object-[60%_center]'/>
             <h1 className='font-bold text-3xl w-100 h-15 mt-5 h-20'>Through the eyes of street artists</h1>
@@ -88,7 +88,7 @@ function MagazineSection() {
           <div className='border-1 p-10'>
             <div className="flex flex-row justify-between pb-10">
               <h1 className="text-sm mt-2">16. March 2022</h1>
-              <button className="text-sm border-1 p-2 pl-3 pr-3 rounded-3xl">STREET ART</button>
+              <Link to="/MagazinePost"><button className="text-sm border-1 p-2 pl-3 pr-3 rounded-3xl">STREET ART</button></Link>
             </div>
             <img src="./src/Pictures/MagazinePictures/Artists-who.jpg" alt="" className='h-100 w-120 object-cover object-[70%_center]'/>
             <h1 className='font-bold text-3xl w-100 h-15 mt-5 h-20'>Artists who want to rise above</h1>
@@ -107,7 +107,7 @@ function MagazineSection() {
           <div className='border-1 p-10'>
             <div className="flex flex-row justify-between pb-10">
               <h1 className="text-sm mt-2">16. March 2022</h1>
-              <button className="text-sm border-1 p-2 pl-3 pr-3 rounded-3xl">ART</button>
+              <Link to="/MagazinePost"><button className="text-sm border-1 p-2 pl-3 pr-3 rounded-3xl">ART</button></Link>
             </div>
             <img src="./src/Pictures/MagazinePictures/secret-garden.jpg" alt="" className='h-100 w-120 object-cover object-[70%_center]'/>
             <h1 className='font-bold text-3xl w-100 h-15 mt-5'>Secret Garden</h1>
@@ -122,7 +122,7 @@ function MagazineSection() {
           <div className='border-1 p-10'>
             <div className="flex flex-row justify-between pb-10">
               <h1 className="text-sm mt-2">16. March 2022</h1>
-              <button className="text-sm border-1 p-2 pl-3 pr-3 rounded-3xl">ART</button>
+              <Link to="/MagazinePost"><button className="text-sm border-1 p-2 pl-3 pr-3 rounded-3xl">ART</button></Link>
             </div>
             <img src="./src/Pictures/MagazinePictures/getting-real.jpg" alt="" className='h-100 w-120 object-cover object-[60%_center]'/>
             <h1 className='font-bold text-3xl w-100 h-15 mt-5'>Getting real</h1>
@@ -137,7 +137,7 @@ function MagazineSection() {
           <div className='border-1 p-10'>
             <div className="flex flex-row justify-between pb-10">
               <h1 className="text-sm mt-2">16. March 2022</h1>
-              <button className="text-sm border-1 p-2 pl-3 pr-3 rounded-3xl">STREET ART</button>
+              <Link to="/MagazinePost"><button className="text-sm border-1 p-2 pl-3 pr-3 rounded-3xl">STREET ART</button></Link>
             </div>
             <img src="./src/Pictures/MagazinePictures/more-coloful.jpg" alt="" className='h-100 w-120 object-cover object-[70%_center]'/>
             <h1 className='font-bold text-3xl w-100 h-15 mt-5'>Most colorful places</h1>
@@ -156,7 +156,7 @@ function MagazineSection() {
           <div className='border-1 p-10'>
             <div className="flex flex-row justify-between pb-10">
               <h1 className="text-sm mt-2">16. March 2022</h1>
-              <button className="text-sm border-1 p-2 pl-3 pr-3 rounded-3xl">STREET ART</button>
+              <Link to="/MagazinePost"><button className="text-sm border-1 p-2 pl-3 pr-3 rounded-3xl">STREET ART</button></Link>
             </div>
             <img src="./src/Pictures/MagazinePictures/Keep-smiling.jpg" alt="" className='h-100 w-120 object-cover object-[70%_center]'/>
             <h1 className='font-bold text-3xl w-100 h-15 mt-5'>Keep on smiling</h1>
@@ -171,7 +171,7 @@ function MagazineSection() {
           <div className='border-1 p-10'>
             <div className="flex flex-row justify-between pb-10">
               <h1 className="text-sm mt-2">16. March 2022</h1>
-              <button className="text-sm border-1 p-2 pl-3 pr-3 rounded-3xl">ART</button>
+              <Link to="/MagazinePost"><button className="text-sm border-1 p-2 pl-3 pr-3 rounded-3xl">ART</button></Link>
             </div>
             <img src="./src/Pictures/MagazinePictures/History-paper.jpg" alt="" className='h-100 w-120 object-cover object-[60%_center]'/>
             <h1 className='font-bold text-3xl w-100 h-15 mt-5'>History of Paper</h1>
@@ -186,7 +186,7 @@ function MagazineSection() {
           <div className='border-1 p-10'>
             <div className="flex flex-row justify-between pb-10">
               <h1 className="text-sm mt-2">16. March 2022</h1>
-              <button className="text-sm border-1 p-2 pl-3 pr-3 rounded-3xl">SCULPTURES</button>
+              <Link to="/MagazinePost"><button className="text-sm border-1 p-2 pl-3 pr-3 rounded-3xl">SCULPTURES</button></Link>
             </div>
             <img src="./src/Pictures/MagazinePictures/How-are-you.jpg" alt="" className='h-100 w-120 object-cover object-[70%_center]'/>
             <h1 className='font-bold text-3xl w-100 h-15 mt-5'>How are you, really?</h1>
@@ -205,7 +205,7 @@ function MagazineSection() {
           <div className='border-1 p-10'>
             <div className="flex flex-row justify-between pb-10">
               <h1 className="text-sm mt-2">16. March 2022</h1>
-              <button className="text-sm border-1 p-2 pl-3 pr-3 rounded-3xl">ART</button>
+              <Link to="/MagazinePost"><button className="text-sm border-1 p-2 pl-3 pr-3 rounded-3xl">ART</button></Link>
             </div>
             <img src="./src/Pictures/MagazinePictures/beauty-of-colors.jpg" alt="" className='h-100 w-120 object-cover object-[70%_center]'/>
             <h1 className='font-bold text-3xl w-100 h-15 mt-5'>Beauty of Colors</h1>
@@ -220,7 +220,7 @@ function MagazineSection() {
           <div className='border-1 p-10'>
             <div className="flex flex-row justify-between pb-10">
               <h1 className="text-sm mt-2">16. March 2022</h1>
-              <button className="text-sm border-1 p-2 pl-3 pr-3 rounded-3xl">ART</button>
+              <Link to="/MagazinePost"><button className="text-sm border-1 p-2 pl-3 pr-3 rounded-3xl">ART</button></Link>
             </div>
             <img src="./src/Pictures/MagazinePictures/Colorful.jpg" alt="" className='h-100 w-120 object-cover object-[60%_center]'/>
             <h1 className='font-bold text-3xl w-100 h-15 mt-5'>Colorful future</h1>
@@ -235,7 +235,7 @@ function MagazineSection() {
           <div className='border-1 p-10'>
             <div className="flex flex-row justify-between pb-10">
               <h1 className="text-sm mt-2">16. March 2022</h1>
-              <button className="text-sm border-1 p-2 pl-3 pr-3 rounded-3xl">SCULPTURES</button>
+              <Link to="/MagazinePost"><button className="text-sm border-1 p-2 pl-3 pr-3 rounded-3xl">SCULPTURES</button></Link>
             </div>
             <img src="./src/Pictures/MagazinePictures/Only-Heart.jpg" alt="" className='h-100 w-120 object-cover object-[70%_center]'/>
             <h1 className='font-bold text-3xl w-100 h-15 mt-5'>Only in Your Heart</h1>

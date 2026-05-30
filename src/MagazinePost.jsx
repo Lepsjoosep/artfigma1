@@ -3,16 +3,17 @@ import LoremTicker from './loremticker.jsx'
 import Header from './header.jsx'
 import Footer from './footer.jsx'
 import MagazinePostArticles from './MagazinePostArticles.jsx'
+import { Link } from 'react-router-dom';
 
 function MagazinePost() {
     return (
         <>
         <Header />
         <div className='flex justify-between p-10 items-center'>
-            <div className='flex flex-row items-center'>
+            <Link to="/magazine"><div className='flex flex-row items-center'>
                 <img src="./src/Pictures/arrow.png" alt="" className='rotate-180 h-6'/>
                 <h1 className='font-bold text-lg'>GO BACK</h1>
-            </div>
+            </div></Link>
             <h1 className='flex font-bold text-3xl overflow-hidden'>MAGAZINE</h1>
         </div>
         <div className='flex flex-row pl-10 pr-20 justify-between'> 

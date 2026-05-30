@@ -1,12 +1,14 @@
+import { Link } from 'react-router-dom';
+
 function Podcasts() {
     return (
             <div className='p-10 pl-10 pr-10'>
       <div className='flex flex-row justify-between'>
         <h1 className='font-bold text-8xl h-30'>PODCAST</h1> 
-        <div className='flex flex-row gap-2'>
+        <Link to="/PodcastsPage"><div className='flex flex-row gap-2'>
           <h1 className='font-bold text-lg'>ALL EPISODES</h1>
           <img src="./src/Pictures/arrow.png" alt="" className='h-6'/>
-        </div>
+        </div></Link>
       </div >
         <div className='flex flex-row justify-center pt-20'>
           <div className='border-1 p-15'>

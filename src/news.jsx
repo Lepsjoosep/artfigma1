@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 function News() {
     return (
          <div className='flex flex-row justify-between'>
@@ -20,7 +22,7 @@ function News() {
                 <h1 className='font-bold'>Duration</h1>
                 <h1>1 Min</h1>
                 <div>
-                  <button className='w-13 h-8 border-1 rounded-2xl ml-50 lg:ml-40'>ART</button>
+                  <Link to="/magazine"><button className='w-13 h-8 border-1 rounded-2xl ml-50 lg:ml-40'>ART</button></Link>
                  </div>
               </div>
             </div>
@@ -45,7 +47,7 @@ function News() {
                 <h1 className='font-bold'>Duration</h1>
                 <h1>1 Min</h1>
                 <div>
-                  <button className='w-30 h-8 border-1 rounded-2xl ml-35 lg:ml-25'>SCULPTURES</button>
+                  <Link to="/magazine"><button className='w-30 h-8 border-1 rounded-2xl ml-35 lg:ml-25'>SCULPTURES</button></Link>
                 </div>
               </div>
             </div>
@@ -70,7 +72,7 @@ function News() {
                 <h1 className='font-bold'>Duration</h1>
                 <h1>1 Min</h1>
                 <div>
-                  <button className='w-13 h-8 border-1 rounded-2xl ml-50 lg:ml-40'>ART</button>
+                  <Link to="/magazine"><button className='w-13 h-8 border-1 rounded-2xl ml-50 lg:ml-40'>ART</button></Link>
                 </div>
               </div>
             </div>
@@ -95,7 +97,7 @@ function News() {
                 <h1 className='font-bold'>Duration</h1>
                 <h1>1 Min</h1>
                 <div>
-                  <button className='w-13 h-8 border-1 rounded-2xl ml-50 lg:ml-40'>ART</button>
+                  <Link to="/magazine"><button className='w-13 h-8 border-1 rounded-2xl ml-50 lg:ml-40'>ART</button></Link>
                 </div>
               </div>
             </div>
@@ -120,7 +122,7 @@ function News() {
                 <h1 className='font-bold'>Duration</h1>
                 <h1>1 Min</h1>
                 <div>
-                  <button className='w-30 h-8 border-1 rounded-2xl ml-35 lg:ml-25'>STREET ART</button>
+                  <Link to="/magazine"><button className='w-30 h-8 border-1 rounded-2xl ml-35 lg:ml-25'>STREET ART</button></Link>
                 </div>
               </div>
             </div>
@@ -145,16 +147,16 @@ function News() {
                 <h1 className='font-bold'>Duration</h1>
                 <h1>1 Min</h1>
                 <div>
-                  <button className='w-30 h-8 border-1 rounded-2xl ml-35 lg:ml-25'>STREET ART</button>
+                  <Link to="/magazine"><button className='w-30 h-8 border-1 rounded-2xl ml-35 lg:ml-25'>STREET ART</button></Link>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div className='p-10 pl-10 flex flex-row gap-2 align-center'>
+        <Link to="/magazine"><div className='p-10 pl-10 flex flex-row gap-2 align-center'>
           <h1 className='font-bold'>ALL ARTICLES</h1>
           <img src="./src/Pictures/arrow.png" alt=""  className='h-5'/>
-        </div>
+        </div></Link>
       </div>
       <div className='p-10 pr-20'>
         <div className='pb-10'>

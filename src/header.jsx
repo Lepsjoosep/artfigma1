@@ -6,7 +6,9 @@ function Header() {
       <div className='flex flex-col'>
       <div className='flex flex-row justify-between p-10 pl-10 pr-10 pb-3'>
         <div>
-          <h1 className='text-lg font-bold'>FYRRE MAGAZINE</h1>
+          <Link to="/">
+            <h1 className='text-lg font-bold'>FYRRE MAGAZINE</h1>
+          </Link>
         </div>
         <div className='flex flex-row gap-8'>
           <Link to="/magazine"><h1>Magazine</h1></Link>

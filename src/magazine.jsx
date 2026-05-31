@@ -13,7 +13,7 @@ function Magazine() {
   return (
     <>
       <Header />
-      <h1 className='text-[275px] flex justify-center font-bold mt-[-100px] mb-[-200px] '>MAGAZINE</h1>
+      <h1 className='text-[275px] flex justify-center font-bold mt-[-100px] mb-[-200px]'>MAGAZINE</h1>
       <div className='mt-40 flex align-center justify-between p-10'>
         <h1 className='font-bold text-lg'>CATEGORIES</h1>
         <div>
@@ -27,7 +27,7 @@ function Magazine() {
       <div className='flex justify-end pt-20 pr-10 pb-20'>
         <div className='flex flex-row gap-2'>
           <h1 className='font-bold'>NEXT</h1>
-          <img src="./src/Pictures/arrow.png" alt="" className='h-6'/>
+          <img src="./src/Pictures/arrow.png" alt="" className='h-6' />
         </div>
       </div>
       <MagazineEnd />

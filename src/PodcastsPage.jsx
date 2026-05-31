@@ -2,12 +2,12 @@ import './App.css'
 import LoremTicker from './loremticker.jsx'
 import Header from './header.jsx'
 import Footer from './footer.jsx'
-import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom'
 
-function PodcastsPage () {
-    return (
-        <>
-        <Header />
+function PodcastsPage() {
+  return (
+    <>
+      <Header />
         <div className='p-10'>
             <h1 className='font-bold text-[385px] -mt-40'>PODCAST</h1>
         </div>
@@ -25,7 +25,7 @@ function PodcastsPage () {
                     <h1 className='font-bold text-lg'>Duration</h1>
                     <h1 className="text-lg">1hr 20min</h1>
                 </div>
-                <Link to="/PodcastPage"><div className='flex flex-row gap-3'>
+                <Link to="/PagePodcast"><div className='flex flex-row gap-3'>
                     <h1 className='font-bold text-lg w-16'>LISTEN</h1>
                     <img src="./src/Pictures/arrow.png" alt="" />
                 </div></Link>
@@ -45,7 +45,7 @@ function PodcastsPage () {
                     <h1 className='font-bold text-lg'>Duration</h1>
                     <h1 className="text-lg">1hr 20min</h1>
                 </div>
-                <Link to="/PodcastPage"><div className='flex flex-row gap-3'>
+                <Link to="/PagePodcast"><div className='flex flex-row gap-3'>
                     <h1 className='font-bold text-lg w-16'>LISTEN</h1>
                     <img src="./src/Pictures/arrow.png" alt="" />
                 </div></Link>
@@ -65,7 +65,7 @@ function PodcastsPage () {
                     <h1 className='font-bold text-lg'>Duration</h1>
                     <h1 className="text-lg">1hr 20min</h1>
                 </div>
-                <Link to="/PodcastPage"><div className='flex flex-row gap-3'>
+                <Link to="/PagePodcast"><div className='flex flex-row gap-3'>
                     <h1 className='font-bold text-lg w-16'>LISTEN</h1>
                     <img src="./src/Pictures/arrow.png" alt="" />
                 </div></Link>
@@ -85,7 +85,7 @@ function PodcastsPage () {
                     <h1 className='font-bold text-lg'>Duration</h1>
                     <h1 className="text-lg">1hr 20min</h1>
                 </div>
-                <Link to="/PodcastPage"><div className='flex flex-row gap-3'>
+                <Link to="/PagePodcast"><div className='flex flex-row gap-3'>
                     <h1 className='font-bold text-lg w-16'>LISTEN</h1>
                     <img src="./src/Pictures/arrow.png" alt="" />
                 </div></Link>
@@ -105,7 +105,7 @@ function PodcastsPage () {
                     <h1 className='font-bold text-lg'>Duration</h1>
                     <h1 className="text-lg">1hr 20min</h1>
                 </div>
-                <Link to="/PodcastPage"><div className='flex flex-row gap-3'>
+                <Link to="/PagePodcast"><div className='flex flex-row gap-3'>
                     <h1 className='font-bold text-lg w-16'>LISTEN</h1>
                     <img src="./src/Pictures/arrow.png" alt="" />
                 </div></Link>

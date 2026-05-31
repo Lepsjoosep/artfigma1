@@ -3,12 +3,12 @@ import LoremTicker from './loremticker.jsx'
 import Header from './header.jsx'
 import Footer from './footer.jsx'
 import MagazinePostArticles from './MagazinePostArticles.jsx'
-import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom'
 
 function MagazinePost() {
-    return (
-        <>
-        <Header />
+  return (
+    <>
+      <Header />
         <div className='flex justify-between p-10 items-center'>
             <Link to="/magazine"><div className='flex flex-row items-center'>
                 <img src="./src/Pictures/arrow.png" alt="" className='rotate-180 h-6'/>
@@ -92,9 +92,9 @@ function MagazinePost() {
             </div>
         <MagazinePostArticles />
         </div>
-        <Footer />
-        </>
-    )
+      <Footer />
+    </>
+  )
 }
 
-export default MagazinePost;
+export default MagazinePost

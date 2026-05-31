@@ -1,8 +1,8 @@
-import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom'
 
 function News() {
-    return (
-         <div className='flex flex-row justify-between'>
+  return (
+    <div className='flex flex-row justify-between'>
       <div>
         <div className='flex flex-row p-10 pl-10'>
           <img src="./src/Pictures/Hopedieslast.jpg" alt="" className='h-50 w-50 object-cover' />
@@ -22,7 +22,7 @@ function News() {
                 <h1 className='font-bold'>Duration</h1>
                 <h1>1 Min</h1>
                 <div>
-                  <Link to="/magazine"><button className='w-13 h-8 border-1 rounded-2xl ml-50 lg:ml-40'>ART</button></Link>
+                  <Link to="/MagazinePost"><button className='w-13 h-8 border-1 rounded-2xl ml-50 lg:ml-40'>ART</button></Link>
                  </div>
               </div>
             </div>
@@ -47,7 +47,7 @@ function News() {
                 <h1 className='font-bold'>Duration</h1>
                 <h1>1 Min</h1>
                 <div>
-                  <Link to="/magazine"><button className='w-30 h-8 border-1 rounded-2xl ml-35 lg:ml-25'>SCULPTURES</button></Link>
+                  <Link to="/MagazinePost"><button className='w-30 h-8 border-1 rounded-2xl ml-35 lg:ml-25'>SCULPTURES</button></Link>
                 </div>
               </div>
             </div>
@@ -72,7 +72,7 @@ function News() {
                 <h1 className='font-bold'>Duration</h1>
                 <h1>1 Min</h1>
                 <div>
-                  <Link to="/magazine"><button className='w-13 h-8 border-1 rounded-2xl ml-50 lg:ml-40'>ART</button></Link>
+                  <Link to="/MagazinePost"><button className='w-13 h-8 border-1 rounded-2xl ml-50 lg:ml-40'>ART</button></Link>
                 </div>
               </div>
             </div>
@@ -97,7 +97,7 @@ function News() {
                 <h1 className='font-bold'>Duration</h1>
                 <h1>1 Min</h1>
                 <div>
-                  <Link to="/magazine"><button className='w-13 h-8 border-1 rounded-2xl ml-50 lg:ml-40'>ART</button></Link>
+                  <Link to="/MagazinePost"><button className='w-13 h-8 border-1 rounded-2xl ml-50 lg:ml-40'>ART</button></Link>
                 </div>
               </div>
             </div>
@@ -122,7 +122,7 @@ function News() {
                 <h1 className='font-bold'>Duration</h1>
                 <h1>1 Min</h1>
                 <div>
-                  <Link to="/magazine"><button className='w-30 h-8 border-1 rounded-2xl ml-35 lg:ml-25'>STREET ART</button></Link>
+                  <Link to="/MagazinePost"><button className='w-30 h-8 border-1 rounded-2xl ml-35 lg:ml-25'>STREET ART</button></Link>
                 </div>
               </div>
             </div>
@@ -147,7 +147,7 @@ function News() {
                 <h1 className='font-bold'>Duration</h1>
                 <h1>1 Min</h1>
                 <div>
-                  <Link to="/magazine"><button className='w-30 h-8 border-1 rounded-2xl ml-35 lg:ml-25'>STREET ART</button></Link>
+                  <Link to="/MagazinePost"><button className='w-30 h-8 border-1 rounded-2xl ml-35 lg:ml-25'>STREET ART</button></Link>
                 </div>
               </div>
             </div>

@@ -1,6 +1,6 @@
 function NewsTicker() {
-    return (
-<div className="flex flex-row bg-black -ml-12 max-w h-15 items-center gap-6 overflow-hidden">
+  return (
+    <div className="flex flex-row bg-black -ml-12 max-w h-15 items-center gap-6 overflow-hidden">
       <div className="relative overflow-hidden whitespace-nowrap flex-1">
         <div className="animate-marquee inline-block">
           <span className="text-white font-semibold text-2xl font-light tracking-wide mx-5">
@@ -62,6 +62,7 @@ function NewsTicker() {
         }
       `}</style>
     </div>
-    );
+  )
 }
-export default NewsTicker;
+
+export default NewsTicker

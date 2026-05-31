@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom'
+
 function Authors() {
     return (
     <div className='pl-30 pr-30'>
@@ -12,7 +14,7 @@ function Authors() {
       <div className='flex flex-row items-center gap-10 border-1 p-10 w-210'>
         <img src="./src/Pictures/jakob.png" alt="" />
         <div className='flex flex-col gap-5'>
-          <h1 className='font-bold text-4xl h-12'>Jakob Grønberg</h1>
+          <Link to="/ArtistPage"><h1 className='font-bold text-4xl h-12'>Jakob Grønberg</h1></Link>
         <div className='flex flex-row gap-5'>
           <div className='flex flex-row gap-3'>
             <h1 className='font-bold'>Job</h1>
@@ -28,7 +30,7 @@ function Authors() {
       <div className='flex flex-row items-center gap-10 border-1 p-10 w-210'>
         <img src="./src/Pictures/Louise.png" alt="" />
         <div className='flex flex-col gap-5'>
-          <h1 className='font-bold text-4xl h-12'>Louise Jensen</h1>
+          <Link to="/ArtistPage"><h1 className='font-bold text-4xl h-12'>Louise Jensen</h1></Link>
         <div className='flex flex-row gap-5'>
           <div className='flex flex-row gap-3'>
             <h1 className='font-bold'>Job</h1>
@@ -46,7 +48,7 @@ function Authors() {
       <div className='flex flex-row items-center gap-10 border-1 p-10 w-210'>
         <img src="./src/Pictures/anne.png" alt="" />
         <div className='flex flex-col gap-5'>
-          <h1 className='font-bold text-4xl h-12'>Anne Henry</h1>
+          <Link to="/ArtistPage"><h1 className='font-bold text-4xl h-12'>Anne Henry</h1></Link>
         <div className='flex flex-row gap-5'>
           <div className='flex flex-row gap-3'>
             <h1 className='font-bold'>Job</h1>
@@ -62,7 +64,7 @@ function Authors() {
       <div className='flex flex-row items-center gap-10 border-1 p-10 w-210'>
         <img src="./src/Pictures/Anna.png" alt="" />
         <div className='flex flex-col gap-5'>
-          <h1 className='font-bold text-4xl h-12'>Anna Nielsen</h1>
+          <Link to="/ArtistPage"><h1 className='font-bold text-4xl h-12'>Anna Nielsen</h1></Link>
         <div className='flex flex-row gap-5'>
           <div className='flex flex-row gap-3'>
             <h1 className='font-bold'>Job</h1>
@@ -80,7 +82,7 @@ function Authors() {
       <div className='flex flex-row items-center gap-10 border-1 p-10 w-210'>
         <img src="./src/Pictures/Jane.png" alt="" />
         <div className='flex flex-col gap-5'>
-          <h1 className='font-bold text-4xl h-12'>Jane Cooper</h1>
+          <Link to="/ArtistPage"><h1 className='font-bold text-4xl h-12'>Jane Cooper</h1></Link>
         <div className='flex flex-row gap-5'>
           <div className='flex flex-row gap-3'>
             <h1 className='font-bold'>Job</h1>
@@ -96,7 +98,7 @@ function Authors() {
       <div className='flex flex-row items-center gap-10 border-1 p-10 w-210'>
         <img src="./src/Pictures/Cristofer.png" alt="" />
         <div className='flex flex-col gap-5'>
-          <h1 className='font-bold text-4xl h-12'>Cristofer Vaccaro</h1>
+          <Link to="/ArtistPage"><h1 className='font-bold text-4xl h-12'>Cristofer Vaccaro</h1></Link>
         <div className='flex flex-row gap-5'>
           <div className='flex flex-row gap-3'>
             <h1 className='font-bold'>Job</h1>

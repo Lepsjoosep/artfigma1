@@ -1,11 +1,11 @@
-import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom'
 
 function MagazineSection() {
-    return (
-            <div className=' pl-10 pr-10'>
-      <div className='flex flex-row justify-between'> 
-      </div >
-        <div className='flex flex-row justify-center pt-20'>
+  return (
+    <div className='pl-10 pr-10'>
+      <div className='flex flex-row justify-between'>
+      </div>
+      <div className='flex flex-row justify-center pt-20'>
           <div className='border-1 p-10'>
             <div className="flex flex-row justify-between pb-10">
               <h1 className="text-sm mt-2">16. March 2022</h1>

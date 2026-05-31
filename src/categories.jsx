@@ -1,6 +1,7 @@
 function categories() {
-    return (
-        <>
-        </>
-    )
+  return (
+    <></>
+  )
 }
+
+export default categories

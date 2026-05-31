@@ -1,7 +1,7 @@
-function MagazinePostArticles () {
-    return (
-<>
-        <div className='flex flex-row justify-center pt-20 pl-10 pr-10'>
+function MagazinePostArticles() {
+  return (
+    <>
+      <div className='flex flex-row justify-center pt-20 pl-10 pr-10'>
           <div className='border-1 p-10'>
             <div className="flex flex-row justify-between pb-10">
               <h1 className="text-sm mt-2">16. March 2022</h1>
